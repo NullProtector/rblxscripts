@@ -1,0 +1,295 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local C00l = Instance.new("ScreenGui")
+local C00lFrame = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local Fe_Scripts = Instance.new("TextLabel")
+local Space = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local InfYield = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local ChatLogs = Instance.new("TextButton")
+local GrabKnife = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local TTS = Instance.new("TextButton")
+local ChatSPY = Instance.new("TextButton")
+local RTXGui = Instance.new("TextButton")
+local ServerFinder = Instance.new("TextButton")
+local SFB = Instance.new("TextButton")
+local SnakeV2 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Tip1 = Instance.new("TextLabel")
+local Tip2 = Instance.new("TextLabel")
+local Tip3 = Instance.new("TextLabel")
+local Tip2_2 = Instance.new("TextLabel")
+
+--Properties:
+
+C00l.Name = "C00l"
+C00l.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+C00l.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+C00l.ResetOnSpawn = false
+
+C00lFrame.Name = "C00lFrame"
+C00lFrame.Parent = C00l
+C00lFrame.Active = true
+C00lFrame.Draggable = true
+C00lFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+C00lFrame.Position = UDim2.new(0, 0, 0.204819277, 0)
+C00lFrame.Size = UDim2.new(0, 423, 0, 396)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient.Parent = C00lFrame
+
+Fe_Scripts.Name = "Fe_Scripts"
+Fe_Scripts.Parent = C00lFrame
+Fe_Scripts.BackgroundColor3 = Color3.fromRGB(173, 0, 0)
+Fe_Scripts.Position = UDim2.new(-0.00709219836, 0, 0.0987240821, 0)
+Fe_Scripts.Size = UDim2.new(0, 260, 0, 33)
+Fe_Scripts.Font = Enum.Font.SourceSans
+Fe_Scripts.Text = "Fe Scripts"
+Fe_Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fe_Scripts.TextScaled = true
+Fe_Scripts.TextSize = 14.000
+Fe_Scripts.TextWrapped = true
+
+Space.Name = "Space"
+Space.Parent = C00lFrame
+Space.BackgroundColor3 = Color3.fromRGB(191, 0, 0)
+Space.Position = UDim2.new(0.605450809, 0, 0.0987240896, 0)
+Space.Size = UDim2.new(0, 35, 0, 355)
+Space.Font = Enum.Font.SourceSans
+Space.Text = ""
+Space.TextColor3 = Color3.fromRGB(255, 0, 0)
+Space.TextScaled = true
+Space.TextSize = 14.000
+Space.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_2.Parent = Space
+
+InfYield.Name = "Inf Yield"
+InfYield.Parent = C00lFrame
+InfYield.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+InfYield.Position = UDim2.new(0, 0, 0.18012023, 0)
+InfYield.Size = UDim2.new(0, 90, 0, 29)
+InfYield.Font = Enum.Font.SourceSans
+InfYield.Text = "Inf Yield"
+InfYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfYield.TextScaled = true
+InfYield.TextSize = 14.000
+InfYield.TextWrapped = true
+InfYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Dex.Name = "Dex"
+Dex.Parent = C00lFrame
+Dex.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+Dex.Position = UDim2.new(0.210401893, 0, 0.18012023, 0)
+Dex.Size = UDim2.new(0, 85, 0, 29)
+Dex.Font = Enum.Font.SourceSans
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dex.TextScaled = true
+Dex.TextSize = 14.000
+Dex.TextWrapped = true
+Dex.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NullProtector/rblxscripts/main/Dex%20Explorer%20V5'))()
+end)
+
+ChatLogs.Name = "ChatLogs"
+ChatLogs.Parent = C00lFrame
+ChatLogs.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+ChatLogs.Position = UDim2.new(0.399125278, 0, 0.180000007, 0)
+ChatLogs.Size = UDim2.new(0, 85, 0, 29)
+ChatLogs.Font = Enum.Font.SourceSans
+ChatLogs.Text = "Chat Logs"
+ChatLogs.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatLogs.TextScaled = true
+ChatLogs.TextSize = 14.000
+ChatLogs.TextWrapped = true
+ChatLogs.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/frHvA27v'))()
+end)
+
+GrabKnife.Name = "GrabKnife"
+GrabKnife.Parent = C00lFrame
+GrabKnife.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+GrabKnife.Position = UDim2.new(-0.00236403919, 0, 0.251940131, 0)
+GrabKnife.Size = UDim2.new(0, 90, 0, 29)
+GrabKnife.Font = Enum.Font.SourceSans
+GrabKnife.Text = "Grab Knife V3"
+GrabKnife.TextColor3 = Color3.fromRGB(0, 0, 0)
+GrabKnife.TextScaled = true
+GrabKnife.TextSize = 14.000
+GrabKnife.TextWrapped = true
+GrabKnife.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/frHvA27v'))()
+	print("This only Works in r6")
+end)
+
+Title.Name = "Title"
+Title.Parent = C00lFrame
+Title.BackgroundColor3 = Color3.fromRGB(181, 36, 31)
+Title.Size = UDim2.new(0, 423, 0, 40)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "C00lScripts By NullProtector On Roblox"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+TTS.Name = "TTS"
+TTS.Parent = C00lFrame
+TTS.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+TTS.Position = UDim2.new(0.212765962, 0, 0.251940131, 0)
+TTS.Size = UDim2.new(0, 81, 0, 29)
+TTS.Font = Enum.Font.SourceSans
+TTS.Text = "TTS"
+TTS.TextColor3 = Color3.fromRGB(0, 0, 0)
+TTS.TextScaled = true
+TTS.TextSize = 14.000
+TTS.TextWrapped = true
+TTS.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NullProtector/rblxscripts/main/TTS'))()
+end)
+
+ChatSPY.Name = "ChatSPY"
+ChatSPY.Parent = C00lFrame
+ChatSPY.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+ChatSPY.Position = UDim2.new(0.399125278, 0, 0.25323233, 0)
+ChatSPY.Size = UDim2.new(0, 85, 0, 29)
+ChatSPY.Font = Enum.Font.SourceSans
+ChatSPY.Text = "Chat SPY"
+ChatSPY.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatSPY.TextScaled = true
+ChatSPY.TextSize = 14.000
+ChatSPY.TextWrapped = true
+ChatSPY.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NullProtector/rblxscripts/main/FE%20CHAT%20SPY'))()
+end)
+
+RTXGui.Name = "RTXGui"
+RTXGui.Parent = C00lFrame
+RTXGui.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+RTXGui.Position = UDim2.new(-0.00236403919, 0, 0.325172454, 0)
+RTXGui.Size = UDim2.new(0, 93, 0, 29)
+RTXGui.Font = Enum.Font.SourceSans
+RTXGui.Text = "RTX Gui"
+RTXGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+RTXGui.TextScaled = true
+RTXGui.TextSize = 14.000
+RTXGui.TextWrapped = true
+RTXGui.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NullProtector/rblxscripts/main/FE%20RTX%20GUI'))()
+end)
+
+ServerFinder.Name = "ServerFinder"
+ServerFinder.Parent = C00lFrame
+ServerFinder.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+ServerFinder.Position = UDim2.new(0.210401893, 0, 0.325172454, 0)
+ServerFinder.Size = UDim2.new(0, 81, 0, 29)
+ServerFinder.Font = Enum.Font.SourceSans
+ServerFinder.Text = "Server Finder"
+ServerFinder.TextColor3 = Color3.fromRGB(0, 0, 0)
+ServerFinder.TextScaled = true
+ServerFinder.TextSize = 14.000
+ServerFinder.TextWrapped = true
+ServerFinder.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NullProtector/rblxscripts/main/FE%20Server%20Finder'))()
+end)
+
+SFB.Name = "SFB"
+SFB.Parent = C00lFrame
+SFB.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+SFB.Position = UDim2.new(0.399125278, 0, 0.326464623, 0)
+SFB.Size = UDim2.new(0, 85, 0, 29)
+SFB.Font = Enum.Font.SourceSans
+SFB.Text = "SFB"
+SFB.TextColor3 = Color3.fromRGB(0, 0, 0)
+SFB.TextScaled = true
+SFB.TextSize = 14.000
+SFB.TextWrapped = true
+SFB.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NullProtector/rblxscripts/main/FE%20SFB'))()
+	print("Press X To Turn On")
+end)
+
+SnakeV2.Name = "SnakeV2"
+SnakeV2.Parent = C00lFrame
+SnakeV2.BackgroundColor3 = Color3.fromRGB(204, 36, 21)
+SnakeV2.Position = UDim2.new(-0.00236403919, 0, 0.398404837, 0)
+SnakeV2.Size = UDim2.new(0, 89, 0, 29)
+SnakeV2.Font = Enum.Font.SourceSans
+SnakeV2.Text = "Snake V2"
+SnakeV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+SnakeV2.TextScaled = true
+SnakeV2.TextSize = 14.000
+SnakeV2.TextWrapped = true
+SnakeV2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NullProtector/rblxscripts/main/FE%20Snake%20V2'))()
+end)
+
+TextLabel.Parent = C00lFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(223, 30, 30)
+TextLabel.Position = UDim2.new(0.688193083, 0, 0.101010099, 0)
+TextLabel.Size = UDim2.new(0, 131, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Credits To the Owners"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+
+Tip1.Name = "Tip1"
+Tip1.Parent = C00lFrame
+Tip1.BackgroundColor3 = Color3.fromRGB(223, 30, 30)
+Tip1.Position = UDim2.new(0.688193083, 0, 0.227272719, 0)
+Tip1.Size = UDim2.new(0, 131, 0, 50)
+Tip1.Font = Enum.Font.SourceSans
+Tip1.Text = "SFB = Sword fighting Bot"
+Tip1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tip1.TextScaled = true
+Tip1.TextSize = 14.000
+Tip1.TextWrapped = true
+
+Tip2.Name = "Tip2"
+Tip2.Parent = C00lFrame
+Tip2.BackgroundColor3 = Color3.fromRGB(223, 30, 30)
+Tip2.Position = UDim2.new(0.688193083, 0, 0.353535354, 0)
+Tip2.Size = UDim2.new(0, 131, 0, 50)
+Tip2.Font = Enum.Font.SourceSans
+Tip2.Text = "TTS = Text To Speech"
+Tip2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tip2.TextScaled = true
+Tip2.TextSize = 14.000
+Tip2.TextWrapped = true
+
+Tip3.Name = "Tip3"
+Tip3.Parent = C00lFrame
+Tip3.BackgroundColor3 = Color3.fromRGB(223, 30, 30)
+Tip3.Position = UDim2.new(0.688193083, 0, 0.606060684, 0)
+Tip3.Size = UDim2.new(0, 131, 0, 50)
+Tip3.Font = Enum.Font.SourceSans
+Tip3.Text = "Do you know: Inf Yield is admin script is in development for 6 years"
+Tip3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tip3.TextScaled = true
+Tip3.TextSize = 14.000
+Tip3.TextWrapped = true
+
+Tip2_2.Name = "Tip2"
+Tip2_2.Parent = C00lFrame
+Tip2_2.BackgroundColor3 = Color3.fromRGB(223, 30, 30)
+Tip2_2.Position = UDim2.new(0.688193083, 0, 0.482323229, 0)
+Tip2_2.Size = UDim2.new(0, 131, 0, 50)
+Tip2_2.Font = Enum.Font.SourceSans
+Tip2_2.Text = "Dex = Dex Explorer"
+Tip2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tip2_2.TextScaled = true
+Tip2_2.TextSize = 14.000
+Tip2_2.TextWrapped = true
